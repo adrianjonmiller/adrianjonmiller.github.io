@@ -1,18 +1,14 @@
 ---
 layout: default
 ---
+<div id="home" class="page">
+	{% include_relative /home.html %}
+</div>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">    
-      
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<div id="design" class="page">
+	{% include_relative /design.html %}
+</div>
 
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<div id="code" class="page">
+	{% include_relative /code.html %}
 </div>

@@ -1,0 +1,8 @@
+<a ng-click="toPage('')" href="#/" class="back"><i class="ion-ios7-arrow-right"></i></a>
+<nav>
+	<ul id="design-thumbnails">
+		{% for post in site.posts %}
+		<li><a ng-click="toggleModal('{{ post.url }}')" href="#{{ post.url }}"><img src="{{ post.details.covers.202 }}"></a></li>
+		{% endfor %}
+	</ul>
+</nav>

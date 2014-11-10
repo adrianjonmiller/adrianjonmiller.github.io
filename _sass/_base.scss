@@ -1,0 +1,49 @@
+@import "bourbon/bourbon";
+
+a, h1, h2, h3, h4, h5, span {
+	color: $text-color-default;
+	font-size: 10pt;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+// * + * {
+// 	margin-bottom: $pad;
+// }
+
+html, body {
+	font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	background: transparent;
+	border: none;
+	&:focus {
+		outline: none;
+	}
+}
+
+
+.grid {
+	@extend %clearfix;
+	margin-left: -$pad;
+}
+
+[class^="col-"] {
+	float: left;
+	padding-left: $pad;
+}
+
+.col-1-2 {
+	width: 50%;
+}
+
+.col-1-3 {
+	width: percentage(1/3);
+}
+
+.col-2-3 {
+	width: percentage(2/3);
+}

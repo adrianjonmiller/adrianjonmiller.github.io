@@ -1,0 +1,23 @@
+h1, h2, h3, h4, h5 {
+	margin: 0;
+}
+
+nav > ul {
+	@extend %list-unstyled;
+	> li {
+		@extend %list-unstyled;
+	}
+}
+
+[role="nav"], [role="navigation"], .list-unstyled {
+	@extend %list-unstyled;
+	> li {
+		@extend %list-unstyled;
+	}
+}
+
+
+a {
+	text-decoration: none;
+	color: $text-color-default;
+}

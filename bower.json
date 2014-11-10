@@ -1,0 +1,29 @@
+{
+  "name": "ajm.rocks",
+  "version": "0.0.0",
+  "authors": [
+    "Adrian Miller <adrianjonmiller@gmail.com>"
+  ],
+  "description": "AJM portfolio site",
+  "main": "index.html",
+  "keywords": [
+    "portfolio",
+    "adrian",
+    "jon",
+    "miller",
+    "design",
+    "UI/UX",
+    "graphic",
+    "design"
+  ],
+  "license": "MIT",
+  "homepage": "ajm.rocks",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
