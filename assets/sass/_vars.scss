@@ -1,10 +1,10 @@
 $breakpoint-desktop: 960px;
-$site-header-height: 3rem;
+$site-header-height: 100px;
+$site-footer-height: 0;
+$pad: 1rem;
 
 $lineheight: 1.5em;
 
-$c-gray: #819498;
-$c-purpleGray: #827B99;
-$c-purple: #383252;
-$c-purpleGray2: #6F6F8C;
-$c-lightGray: #A2B4BB;
+$c-background: rgba(black, 0.8);
+$c-primary: #9A9A9A;
+$c-highlight: #fff;

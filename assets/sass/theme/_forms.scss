@@ -1,0 +1,38 @@
+textarea {
+	margin-top: 0;
+}
+
+form {
+	label {
+		font-size: 12px;
+	}
+
+	fieldset {
+		margin-top: 3px;
+	}
+
+	input[type="text"], input[type="email"] {
+		border: none;
+		border-bottom: solid thin $c-primary;
+	}
+
+	textarea {
+		padding: 0 10px;
+		border: solid thin $c-primary;
+		border-top: none;
+	}
+}
+
+button, input[type="submit"] {
+	display: inline-block;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	background: $c-primary;
+	border: none;
+	color: #fff;
+	padding: 0 3rem;
+	&:hover {
+		cursor: pointer;
+	}
+}

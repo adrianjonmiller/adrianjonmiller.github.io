@@ -1,17 +1,17 @@
 # Site settings
-title: Your awesome title
-author: Your name
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Adrian Miller Design
+author: Adrian Jon Miller
+email: adrianjonmiller@gmail.com
+description: >
+  Portfolio site of Adrian J Miller. I'm a graphic designer, web designer
+  and programmer. I've developed web applications, web sites and specialize
+  in custom logotypes and typography 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://adrianmiller.design" # the base hostname & protocol for your site
+twitter_username: adrianjonmiller
+github_username:  adrianjonmiller
 disqus_shortname: "demo_site"
-keywords: ["your", "key", "words"]
+keywords: ["graphic design", "web design", "typography"]
 pagination: 3
 
 # Build settings
@@ -22,9 +22,9 @@ sass:
     sass_dir: assets
 
 collections:
-  products:
+  code:
     output: true
-    permalink: /products/:path/
+    permalink: /codes/:path/
 
 gems:
 - jekyll-mentions

@@ -1,35 +1,56 @@
 <header id="header">
-  <div class="container">
-    <div class="grid-4">
-      <div class="col col-1">
-        <a class="heading--m" href="{{ site.baseurl }}/#/" id="logo">{{ site.title }}</a>
-      </div>
-      <div class="col col-3">
-        <nav class="table">
-          <ul class="table-row">
-          {% assign nodes = site.pages | sort: "order" %}
-          {% for node in nodes %}
-            {% if node.title != nil and node.url != '/' and node.parent == nil and node.order > 0 %}
-            {% capture nodediff %}{{ node.url | remove:"/" }}{% endcapture %}
-            <li ui-sref-active="active" class="table-col nav-style--a">
-              {% if node.order == 0 %}
-              <a ui-sref="/">{{ node.title }}</a>
-              {% else %}
-              <a ui-sref="{{node.title | slugify}}">{{ node.title }}</a>
-              {% endif %}
-              {% assign children = site.pages | where:  "parent", node.title %}
-              {% if children != empty %}
-              <ul role="dropdown">
-              {% for child in children %}
-                <li ui-sref-active="active" class="nav-style--b">
-                  <a ui-sref="{{child.title | slugify}}">{{ child.title }}</a>
-                </li>
-              {% endfor %}
-              </ul>
-              {% endif %}
-            </li>
+  <div class="grid-12">
+    <div class="col col-2">
+      <a class="heading--m" href="{{ site.baseurl }}/#/" id="logo">
+        <img src="/assets/img/logo.svg" alt="{{ site.title }}">
+      </a>
+    </div>
+    <div class="col col-4">
+      <nav class="table">
+        <ul class="table-row">
+        {% assign nodes = site.pages | sort: "order" %}
+        {% for node in nodes %}
+          {% if node.title != nil and node.url != '/' and node.parent == nil and node.order > 0 %}
+          {% capture nodediff %}{{ node.url | remove:"/" }}{% endcapture %}
+          <li ui-sref-active="active" class="table-col nav-style--a">
+            {% if node.order == 0 %}
+            <a ui-sref="/">{{ node.title }}</a>
+            {% else %}
+            <a ui-sref="{{node.title | slugify}}"><span>{{ node.title }}</span></a>
             {% endif %}
-          {% endfor %}
+            {% assign children = site.pages | where:  "parent", node.title %}
+            {% if children != empty %}
+            <ul role="dropdown">
+            {% for child in children %}
+              <li ui-sref-active="active" class="nav-style--b">
+                <a ui-sref="{{child.title | slugify}}">{{ child.title }}</a>
+              </li>
+            {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+      </nav>
+    </div>
+    <div class="col col-6">
+      <div class="header-social">
+        <nav>
+          <ul class="table-row">
+            <li class="table-col social-style--a">
+              <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+                <i class="ion-social-twitter"></i>
+              </a>
+            </li>
+            <li class="table-col social-style--a">
+              <a href="https://www.linkedin.com/in/adrianjonmiller" target="_blank"><i class="ion-social-linkedin"></i></a>
+            </li>
+            <li class="table-col social-style--a">
+              <a href="https://github.com/{{ site.github_username }}" target="_blank">
+                <i class="ion-social-github"></i>
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
