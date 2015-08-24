@@ -1,0 +1,36 @@
+---
+layout: page
+title: Code
+permalink: code
+order: 2
+---
+<nav>
+	<ul class="grid-1 tablet-4">
+		{% for post in site.code %}
+		<li class="col">
+			<div class="code-thumb">
+				<h3 class="heading--m">{{post.title}}</h3>
+				<hr>
+				<p>{{ post.content }}</p>	
+				<ul>
+					{% if post.github %}
+						<li>
+							<a href="{{post.github}}" target="_blank"><i class="icon ion-social-github"></i> Github</a>		
+						</li>
+					{% endif %}
+					{% if post.codepen %}
+						<li>
+							<a href="{{post.github}}" target="_blank"><i class="icon ion-social-codepen"></i> Codepen</a>
+						</li>
+					{% endif %}
+					{% if post.demo %}
+						<li>
+							<a href="{{post.github}}" target="_blank"><i class="icon ion-link"></i> Demo</a>
+						</li>
+					{% endif %}
+				</ul>
+			</div>
+		</li>
+		{% endfor %}
+	</ul>
+</nav>

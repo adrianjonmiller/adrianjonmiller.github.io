@@ -1,0 +1,18 @@
+---
+layout: page
+title: Design
+permalink: design
+controller: designCtrl
+order: 1
+---
+
+<!-- {% include paginator.html posts=site.posts template='post.html' %} -->
+
+<nav>
+	<ul class="grid-1 tablet-4">
+		{% for post in site.posts %}
+		<li class="col">
+			<a class="thumbnail" ng-click="toggleModal('{{ post.url }}')"><img src="{{ post.details.covers.202 }}"></a></li>
+		{% endfor %}
+	</ul>
+</nav>

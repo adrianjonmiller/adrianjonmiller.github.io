@@ -1,11 +1,6 @@
-ajm.rocks
-=========
+# Jekyll Angular Template
 
-### Jekyll Powered portfolio site.
+## This is a template for building applications using Github pages and angular. 
 
-## Uses
-* Jekyll-Import
-* Angular
-* Angular Modal Service
-* Ionicons
-* Angular ui-route
+To run app just use
+  $ jekyll serve

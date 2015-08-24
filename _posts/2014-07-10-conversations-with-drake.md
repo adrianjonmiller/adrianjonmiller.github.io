@@ -7,17 +7,17 @@ details:
   published_on: 1405046100
   created_on: 1405045822
   modified_on: 1405046100
-  url: http://www.behance.net/gallery/18275979/Conversations-with-Drake
+  url: https://www.behance.net/gallery/18275979/Conversations-with-Drake
   privacy: public
   fields:
   - Graphic Design
   - Web Design
   - Web Development
   covers:
-    '404': https://m1.behance.net/rendition/projects/18275979/404/54ea76d7604bd5fe5a66684e50afa682.png
-    '202': https://m1.behance.net/rendition/projects/18275979/orig/54ea76d7604bd5fe5a66684e50afa682.png
-    '230': https://m1.behance.net/rendition/projects/18275979/230/54ea76d7604bd5fe5a66684e50afa682.png
-    '115': https://m1.behance.net/rendition/projects/18275979/115/54ea76d7604bd5fe5a66684e50afa682.png
+    '404': https://mir-s3-cdn-cf.behance.net/projects/404/18275979.548db0f33a3ea.png
+    '202': https://mir-s3-cdn-cf.behance.net/projects/202/18275979.548db0f33a3ea.png
+    '230': https://mir-s3-cdn-cf.behance.net/projects/230/18275979.548db0f33a3ea.png
+    '115': https://mir-s3-cdn-cf.behance.net/projects/115/18275979.548db0f33a3ea.png
   mature_content: 0
   mature_access: allowed
   owners:
@@ -30,34 +30,40 @@ details:
     country: United States
     location: Oroville, CA, USA
     company: ''
-    occupation: Graphic Designer, Web Designer, User Interface Designer
+    occupation: UX/UI Designer, Specializing in Identity Development & Web Design
     created_on: 1306434463
-    url: http://www.behance.net/adrianjonmiller
+    url: https://www.behance.net/adrianjonmiller
     images:
-      '50': https://mir-cdn.behance.net/v1/rendition/user/50/471687.53ae5ee168bc1.png
-      '100': https://mir-cdn.behance.net/v1/rendition/user/100/471687.53ae5ee168bc1.png
-      '115': https://mir-cdn.behance.net/v1/rendition/user/115/471687.53ae5ee168bc1.png
-      '230': https://mir-cdn.behance.net/v1/rendition/user/230/471687.53ae5ee168bc1.png
-      '138': https://mir-cdn.behance.net/v1/rendition/user/138/471687.53ae5ee168bc1.png
-      '276': https://mir-cdn.behance.net/v1/rendition/user/276/471687.53ae5ee168bc1.png
+      '50': https://mir-s3-cdn-cf.behance.net/user/50/471687.53ae5ee168bc1.png
+      '100': https://mir-s3-cdn-cf.behance.net/user/100/471687.53ae5ee168bc1.png
+      '115': https://mir-s3-cdn-cf.behance.net/user/115/471687.53ae5ee168bc1.png
+      '230': https://mir-s3-cdn-cf.behance.net/user/230/471687.53ae5ee168bc1.png
+      '138': https://mir-s3-cdn-cf.behance.net/user/138/471687.53ae5ee168bc1.png
+      '276': https://mir-s3-cdn-cf.behance.net/user/276/471687.53ae5ee168bc1.png
     display_name: Adrian Miller
     fields:
     - Web Design
     - Graphic Design
-    - Branding
+    - UI/UX
+    has_default_image: 0
+    website: adrianjmiller.me
   stats:
-    views: 15
+    views: 19
     appreciations: 3
     comments: 0
-  for_sale: 0
+  canvas_width: 724
   tags:
   - wordpress
   - starkers
   description: A simple blog I built for my wife to post her conversations with our
     son Drake.
+  editor_version: 4
   modules:
   - id: 123865135
     type: text
+    full_bleed: 0
+    alignment: center
+    caption_alignment: left
     text: "<div>Conversations with Drake is a simple blog started by my wife. She
       began posting conversations with our son Drake on her facebook page and they
       started to attract a following of our friends and family. I helped her move
@@ -70,18 +76,48 @@ details:
       they would be more widely accessible.
   - id: 123865177
     type: image
-    src: https://m1.behance.net/rendition/modules/123865177/disp/91c7c1c75b65ece48ceb8363614e98d4.png
+    full_bleed: 0
+    alignment: center
+    caption_alignment: left
+    src: https://m2.behance.net/rendition/pm/18275979/disp/91c7c1c75b65ece48ceb8363614e98d4.png
+    sizes:
+      disp: https://m2.behance.net/rendition/pm/18275979/disp/91c7c1c75b65ece48ceb8363614e98d4.png
+      max_1240: https://m2.behance.net/rendition/pm/18275979/hd/91c7c1c75b65ece48ceb8363614e98d4.png
+      max_1920: https://m2.behance.net/rendition/pm/18275979/fs/91c7c1c75b65ece48ceb8363614e98d4.png
+      max_1200: https://m2.behance.net/rendition/pm/18275979/max_1200/91c7c1c75b65ece48ceb8363614e98d4.png
+      '1400': https://m2.behance.net/rendition/pm/18275979/1400/91c7c1c75b65ece48ceb8363614e98d4.png
+      max_3840: https://m2.behance.net/rendition/pm/18275979/max_3840/91c7c1c75b65ece48ceb8363614e98d4.png
+      original: https://m2.behance.net/rendition/pm/18275979/orig/91c7c1c75b65ece48ceb8363614e98d4.png
+    dimensions:
+      disp:
+        width: 600
+        height: 1228
+      max_1240:
+        width: 1240
+        height: 2539
+      max_1920:
+        width: 1920
+        height: 3932
+      max_1200:
+        width: 1200
+        height: 2457
+      '1400':
+        width: 1400
+        height: 2867
+      max_3840:
+        width: 2404
+        height: 4924
+      original:
+        width: 2404
+        height: 4924
     width: 600
     height: 1229
-    sizes:
-      original: https://m1.behance.net/rendition/modules/123865177/orig/91c7c1c75b65ece48ceb8363614e98d4.png
-      max_1240: https://m1.behance.net/rendition/modules/123865177/hd/91c7c1c75b65ece48ceb8363614e98d4.png
-      max_1920: https://m1.behance.net/rendition/modules/123865177/fs/91c7c1c75b65ece48ceb8363614e98d4.png
-  short_url: http://bit.ly/1jw0Amm
+  short_url: http://on.be.net/1jw0Amm
   copyright:
     license: cc by-nc
     description: Attribution-NonCommercial
     license_id: 3
+  tools: []
   styles:
     text:
       title:

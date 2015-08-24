@@ -1,0 +1,58 @@
+.nav-style--a {
+
+	> a {
+		color: #fff;
+		text-decoration: none;
+		position: relative;
+		display: block;
+		height: $site-header-height;
+		line-height: $site-header-height;
+		text-align: center;
+
+		span {
+			position: relative;
+			display: inline-block;
+			margin: 0 auto;
+			color: $c-primary;
+			transition: color .25s;
+
+			&:after {
+				content: "";
+				border-bottom: solid thin #fff;
+				width: 0;
+				margin: 0 auto;
+				position: relative;
+				display: block;
+				bottom: 2.75rem;
+				transition: width .25s;
+			}
+		}
+	}
+	&:hover span, &.active span {
+		color: $c-highlight;
+		
+		&:after {
+			width: 100%;
+		}
+	}
+}
+
+
+.social-style--a {
+	float: left;
+
+	> a {
+		height: $site-header-height;
+		display: block;
+		width: 40px;
+		text-align: center;
+		line-height: $site-header-height;
+		color: $c-primary;
+		transition: color .25s;
+		font-size: 18px;
+
+		&:hover {
+			color: $c-highlight;
+		}
+	}
+}

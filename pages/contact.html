@@ -1,0 +1,27 @@
+---
+layout: page
+title: Contact
+permalink: contact
+order: 4
+---
+
+
+<div class="block">
+	<h2 class="heading--l">Work Inquiries</h2>
+	<form method="POST" action="//formspree.io/{{site.email}}">
+		<fieldset>
+			<legend><label for="name">Name</label></legend>
+			<input type="text" name="name" id="name">
+		</fieldset>
+		<input type="text" name="_gotcha" style="display:none" />
+		<fieldset>
+			<legend><label for="email">Email Address</label></legend>
+			<input type="email" name="_replyto" id="email">
+		</fieldset>
+		<fieldset>
+			<legend><label for="message">Message</label></legend>
+			<textarea rows="10" style="width: 100%" name="message" id="message"></textarea>
+		</fieldset>
+		<input type="submit" value="Submit">
+	</form>
+</div>

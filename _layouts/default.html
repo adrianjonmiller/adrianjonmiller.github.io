@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html ng-app="ajm">
+<html ng-app="app">
+
   {% include head.html %}
-  <body  ng-controller="appCtrl">
+
+  <body>
+
     {% include header.html %}
-      <div role="main" class="{% raw %} {{ currentPage }} {% endraw %}">
-        {{ content }}
-      </div>
+
+    <ui-view role="main" ng-controller="main" class=""></ui-view>
+
     {% include footer.html %}
+    {% include scripts.html %}
   </body>
+
 </html>

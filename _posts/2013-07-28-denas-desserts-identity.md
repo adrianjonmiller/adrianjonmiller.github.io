@@ -1,22 +1,22 @@
 ---
 layout: post
-title: Dena's Desserts Identity
+title: Denas Desserts Identity
 details:
   id: 10078645
-  name: Dena's Desserts Identity
+  name: Denas Desserts Identity
   published_on: 1375056560
   created_on: 1375055698
-  modified_on: 1375056560
-  url: http://www.behance.net/gallery/10078645/Denas-Desserts-Identity
+  modified_on: 1440393348
+  url: https://www.behance.net/gallery/10078645/Denas-Desserts-Identity
   privacy: public
   fields:
   - Branding
   - Graphic Design
   covers:
-    '404': https://m1.behance.net/rendition/projects/10078645/404/1fa809406bf5842da3bb5c243d9c2bc8.jpg
-    '202': https://m1.behance.net/rendition/projects/10078645/orig/1fa809406bf5842da3bb5c243d9c2bc8.jpg
-    '230': https://m1.behance.net/rendition/projects/10078645/230/1fa809406bf5842da3bb5c243d9c2bc8.jpg
-    '115': https://m1.behance.net/rendition/projects/10078645/115/1fa809406bf5842da3bb5c243d9c2bc8.jpg
+    '404': https://mir-s3-cdn-cf.behance.net/projects/404/10078645.547f7f6e89dbc.jpg
+    '202': https://mir-s3-cdn-cf.behance.net/projects/202/10078645.547f7f6e89dbc.jpg
+    '230': https://mir-s3-cdn-cf.behance.net/projects/230/10078645.547f7f6e89dbc.jpg
+    '115': https://mir-s3-cdn-cf.behance.net/projects/115/10078645.547f7f6e89dbc.jpg
   mature_content: 0
   mature_access: allowed
   owners:
@@ -29,26 +29,28 @@ details:
     country: United States
     location: Oroville, CA, USA
     company: ''
-    occupation: Graphic Designer, Web Designer, User Interface Designer
+    occupation: UX/UI Designer, Specializing in Identity Development & Web Design
     created_on: 1306434463
-    url: http://www.behance.net/adrianjonmiller
+    url: https://www.behance.net/adrianjonmiller
     images:
-      '50': https://mir-cdn.behance.net/v1/rendition/user/50/471687.53ae5ee168bc1.png
-      '100': https://mir-cdn.behance.net/v1/rendition/user/100/471687.53ae5ee168bc1.png
-      '115': https://mir-cdn.behance.net/v1/rendition/user/115/471687.53ae5ee168bc1.png
-      '230': https://mir-cdn.behance.net/v1/rendition/user/230/471687.53ae5ee168bc1.png
-      '138': https://mir-cdn.behance.net/v1/rendition/user/138/471687.53ae5ee168bc1.png
-      '276': https://mir-cdn.behance.net/v1/rendition/user/276/471687.53ae5ee168bc1.png
+      '50': https://mir-s3-cdn-cf.behance.net/user/50/471687.53ae5ee168bc1.png
+      '100': https://mir-s3-cdn-cf.behance.net/user/100/471687.53ae5ee168bc1.png
+      '115': https://mir-s3-cdn-cf.behance.net/user/115/471687.53ae5ee168bc1.png
+      '230': https://mir-s3-cdn-cf.behance.net/user/230/471687.53ae5ee168bc1.png
+      '138': https://mir-s3-cdn-cf.behance.net/user/138/471687.53ae5ee168bc1.png
+      '276': https://mir-s3-cdn-cf.behance.net/user/276/471687.53ae5ee168bc1.png
     display_name: Adrian Miller
     fields:
     - Web Design
     - Graphic Design
-    - Branding
+    - UI/UX
+    has_default_image: 0
+    website: adrianjmiller.me
   stats:
-    views: 66
+    views: 100
     appreciations: 2
     comments: 0
-  for_sale: 0
+  canvas_width: 999
   tags:
   - Identity Design
   - " logotype"
@@ -57,33 +59,74 @@ details:
     identities. The spatula was chosen as the icon because many people have a nostalgic
     association with spatulas, licking them during the backing process and I wanted
     that personal associate and sense of craft to be captured in the identity.
+  editor_version: 5
   modules:
   - id: 73994599
     type: text
-    text: |
-      <div>This was a logo and identity for a local baker. I chose to do the logo in a more simple graphic manner in order to differentiate from other more &quot;foofy&quot; identities. The spatula was chosen as the icon because many people have a nostalgic association with spatulas, licking them during the backing process and I wanted that personal associate and sense of craft to be captured in the identity.</div>
-    text_plain: |
-      This was a logo and identity for a local baker. I chose to do the logo in a more simple graphic manner in order to differentiate from other more &quot;foofy&quot; identities. The spatula was chosen as the icon because many people have a nostalgic association with spatulas, licking them during the backing process and I wanted that personal associate and sense of craft to be captured in the identity.
+    full_bleed: 0
+    alignment: center
+    caption_alignment: left
+    text: <div>This was a logo and identity for a local baker. I chose to do the logo
+      in a more simple graphic manner in order to differentiate from other more "foofy"
+      identities. The spatula was chosen as the icon because many people have a nostalgic
+      association with spatulas, licking them during the backing process and I wanted
+      that personal associate and sense of craft to be captured in the identity.</div>
+    text_plain: This was a logo and identity for a local baker. I chose to do the
+      logo in a more simple graphic manner in order to differentiate from other more
+      "foofy" identities. The spatula was chosen as the icon because many people have
+      a nostalgic association with spatulas, licking them during the backing process
+      and I wanted that personal associate and sense of craft to be captured in the
+      identity.
   - id: 73994601
     type: image
-    src: https://m1.behance.net/rendition/modules/73994601/disp/375bc44b9ce8a2d676cf0eb1c8873e4f.jpg
+    full_bleed: 0
+    alignment: center
+    caption_alignment: left
+    src: https://m2.behance.net/rendition/pm/10078645/disp/375bc44b9ce8a2d676cf0eb1c8873e4f.jpg
+    sizes:
+      disp: https://m2.behance.net/rendition/pm/10078645/disp/375bc44b9ce8a2d676cf0eb1c8873e4f.jpg
+      original: https://m2.behance.net/rendition/pm/10078645/orig/375bc44b9ce8a2d676cf0eb1c8873e4f.jpg
+    dimensions:
+      disp:
+        width: 368
+        height: 270
+      original:
+        width: 368
+        height: 270
     width: 368
     height: 270
-    sizes:
-      original: https://m1.behance.net/rendition/modules/73994601/orig/375bc44b9ce8a2d676cf0eb1c8873e4f.jpg
   - id: 73994603
     type: image
-    src: https://m1.behance.net/rendition/modules/73994603/disp/3823421de63b103e293c518d645b3e02.jpg
+    full_bleed: 0
+    alignment: center
+    caption_alignment: left
+    src: https://m2.behance.net/rendition/pm/10078645/disp/3823421de63b103e293c518d645b3e02.jpg
+    sizes:
+      disp: https://m2.behance.net/rendition/pm/10078645/disp/3823421de63b103e293c518d645b3e02.jpg
+      max_1240: https://m2.behance.net/rendition/pm/10078645/hd/3823421de63b103e293c518d645b3e02.jpg
+      max_1200: https://m2.behance.net/rendition/pm/10078645/max_1200/3823421de63b103e293c518d645b3e02.jpg
+      original: https://m2.behance.net/rendition/pm/10078645/orig/3823421de63b103e293c518d645b3e02.jpg
+    dimensions:
+      disp:
+        width: 600
+        height: 600
+      max_1240:
+        width: 799
+        height: 799
+      max_1200:
+        width: 799
+        height: 799
+      original:
+        width: 799
+        height: 799
     width: 600
     height: 600
-    sizes:
-      original: https://m1.behance.net/rendition/modules/73994603/orig/3823421de63b103e293c518d645b3e02.jpg
-      max_1240: https://m1.behance.net/rendition/modules/73994603/hd/3823421de63b103e293c518d645b3e02.jpg
-  short_url: http://bit.ly/13RZ4jS
+  short_url: http://on.be.net/13RZ4jS
   copyright:
     license: cc by-nc-nd
     description: Attribution-NonCommercial-NoDerivs
     license_id: 1
+  tools: []
   styles:
     text:
       title:

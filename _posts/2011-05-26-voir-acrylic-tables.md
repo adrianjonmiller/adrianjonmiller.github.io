@@ -7,14 +7,14 @@ details:
   published_on: 1306441201
   created_on: 1306434730
   modified_on: 1354669824
-  url: http://www.behance.net/gallery/1507849/Voir-Acrylic-Tables
+  url: https://www.behance.net/gallery/1507849/Voir-Acrylic-Tables
   privacy: public
   fields:
   - Furniture Design
   - Graphic Design
   covers:
-    '202': https://mir-cdn.behance.net/v1/rendition/projects/202/1507849.544bf972ba1d7.jpg
-    '115': https://mir-cdn.behance.net/v1/rendition/projects/115/1507849.544bf972ba1d7.jpg
+    '202': https://mir-s3-cdn-cf.behance.net/projects/202/1507849.544bf972ba1d7.jpg
+    '115': https://mir-s3-cdn-cf.behance.net/projects/115/1507849.544bf972ba1d7.jpg
   mature_content: 0
   mature_access: allowed
   owners:
@@ -27,26 +27,28 @@ details:
     country: United States
     location: Oroville, CA, USA
     company: ''
-    occupation: Graphic Designer, Web Designer, User Interface Designer
+    occupation: UX/UI Designer, Specializing in Identity Development & Web Design
     created_on: 1306434463
-    url: http://www.behance.net/adrianjonmiller
+    url: https://www.behance.net/adrianjonmiller
     images:
-      '50': https://mir-cdn.behance.net/v1/rendition/user/50/471687.53ae5ee168bc1.png
-      '100': https://mir-cdn.behance.net/v1/rendition/user/100/471687.53ae5ee168bc1.png
-      '115': https://mir-cdn.behance.net/v1/rendition/user/115/471687.53ae5ee168bc1.png
-      '230': https://mir-cdn.behance.net/v1/rendition/user/230/471687.53ae5ee168bc1.png
-      '138': https://mir-cdn.behance.net/v1/rendition/user/138/471687.53ae5ee168bc1.png
-      '276': https://mir-cdn.behance.net/v1/rendition/user/276/471687.53ae5ee168bc1.png
+      '50': https://mir-s3-cdn-cf.behance.net/user/50/471687.53ae5ee168bc1.png
+      '100': https://mir-s3-cdn-cf.behance.net/user/100/471687.53ae5ee168bc1.png
+      '115': https://mir-s3-cdn-cf.behance.net/user/115/471687.53ae5ee168bc1.png
+      '230': https://mir-s3-cdn-cf.behance.net/user/230/471687.53ae5ee168bc1.png
+      '138': https://mir-s3-cdn-cf.behance.net/user/138/471687.53ae5ee168bc1.png
+      '276': https://mir-s3-cdn-cf.behance.net/user/276/471687.53ae5ee168bc1.png
     display_name: Adrian Miller
     fields:
     - Web Design
     - Graphic Design
-    - Branding
+    - UI/UX
+    has_default_image: 0
+    website: adrianjmiller.me
   stats:
-    views: 154
+    views: 158
     appreciations: 3
     comments: 3
-  for_sale: 0
+  canvas_width: 724
   tags:
   - table
   - furniture
@@ -56,20 +58,26 @@ details:
     form. Using a simple 1x1x2 structure, the tables where then given the intense
     color and a decorative inner shape in order to add purely decorative and maximal
     elements into the simple and modern profile.
+  editor_version: 3
   modules:
   - id: 10564289
     type: text
-    text: '<span><span style="font-size: 18px;">Voir Acrylic Endtables</span></span><br><span><span
-      style="font-family: arial,helvetica,sans-serif; font-weight: normal; font-style:
-      italic;">Maximalism and minimalism</span></span><br>'
+    full_bleed: 0
+    alignment: center
+    caption_alignment: left
+    text: '<div><span><span style="font-size: 18px;">Voir Acrylic Endtables</span></span><br><span><span
+      style="font-family: arial,helvetica,sans-serif;">Maximalism and minimalism</span></span><br></div>'
     text_plain: Voir Acrylic EndtablesMaximalism and minimalism
   - id: 10564291
     type: text
-    text: <span class="main-text">Voir was created as an exploration into maximalism
+    full_bleed: 0
+    alignment: center
+    caption_alignment: left
+    text: <div><span class="main-text">Voir was created as an exploration into maximalism
       and minimalism. The end tables developed from the act of marrying the two concepts
       into a single form. Using a simple 1x1x2 structure, the tables where then given
       the intense color and a decorative inner shape in order to add purely decorative
-      and maximal elements into the simple and modern profile.<br></span>
+      and maximal elements into the simple and modern profile.<br></span></div>
     text_plain: Voir was created as an exploration into maximalism and minimalism.
       The end tables developed from the act of marrying the two concepts into a single
       form. Using a simple 1x1x2 structure, the tables where then given the intense
@@ -77,38 +85,90 @@ details:
       elements into the simple and modern profile.
   - id: 10564293
     type: image
-    src: https://m1.behance.net/rendition/modules/10564293/disp/ea72b86f7d131ad37d579de1a1456f7a.jpg
+    full_bleed: 0
+    alignment: center
+    caption_alignment: left
+    src: https://m2.behance.net/rendition/pm/1507849/disp/ea72b86f7d131ad37d579de1a1456f7a.jpg
+    sizes:
+      disp: https://m2.behance.net/rendition/pm/1507849/disp/ea72b86f7d131ad37d579de1a1456f7a.jpg
+      max_1240: https://m2.behance.net/rendition/pm/1507849/hd/ea72b86f7d131ad37d579de1a1456f7a.jpg
+      max_1200: https://m2.behance.net/rendition/pm/1507849/max_1200/ea72b86f7d131ad37d579de1a1456f7a.jpg
+      original: https://m2.behance.net/rendition/pm/1507849/orig/ea72b86f7d131ad37d579de1a1456f7a.jpg
+    dimensions:
+      disp:
+        width: 600
+        height: 463
+      max_1240:
+        width: 792
+        height: 612
+      max_1200:
+        width: 792
+        height: 612
+      original:
+        width: 792
+        height: 612
     width: 600
     height: 464
-    sizes:
-      original: https://m1.behance.net/rendition/modules/10564293/orig/ea72b86f7d131ad37d579de1a1456f7a.jpg
-      max_1240: https://m1.behance.net/rendition/modules/10564293/hd/ea72b86f7d131ad37d579de1a1456f7a.jpg
   - id: 10564295
     type: image
-    src: https://m1.behance.net/rendition/modules/10564295/disp/39b53fe7617b131fa3abdcdef0200db1.jpg
+    full_bleed: 0
+    alignment: center
+    caption_alignment: left
+    src: https://m2.behance.net/rendition/pm/1507849/disp/39b53fe7617b131fa3abdcdef0200db1.jpg
+    sizes:
+      disp: https://m2.behance.net/rendition/pm/1507849/disp/39b53fe7617b131fa3abdcdef0200db1.jpg
+      original: https://m2.behance.net/rendition/pm/1507849/orig/39b53fe7617b131fa3abdcdef0200db1.jpg
+    dimensions:
+      disp:
+        width: 392
+        height: 591
+      original:
+        width: 392
+        height: 591
     width: 392
     height: 591
-    sizes:
-      original: https://m1.behance.net/rendition/modules/10564295/orig/39b53fe7617b131fa3abdcdef0200db1.jpg
   - id: 10564297
     type: image
-    src: https://m1.behance.net/rendition/modules/10564297/disp/5024957f18feea0ead0db965c9bd538c.jpg
+    full_bleed: 0
+    alignment: center
+    caption_alignment: left
+    src: https://m2.behance.net/rendition/pm/1507849/disp/5024957f18feea0ead0db965c9bd538c.jpg
+    sizes:
+      disp: https://m2.behance.net/rendition/pm/1507849/disp/5024957f18feea0ead0db965c9bd538c.jpg
+      original: https://m2.behance.net/rendition/pm/1507849/orig/5024957f18feea0ead0db965c9bd538c.jpg
+    dimensions:
+      disp:
+        width: 392
+        height: 591
+      original:
+        width: 392
+        height: 591
     width: 392
     height: 591
-    sizes:
-      original: https://m1.behance.net/rendition/modules/10564297/orig/5024957f18feea0ead0db965c9bd538c.jpg
   - id: 10564299
     type: image
-    src: https://m1.behance.net/rendition/modules/10564299/disp/5e73096a95e4b9326cd04b486c44b0e6.jpg
+    full_bleed: 0
+    alignment: center
+    caption_alignment: left
+    src: https://m2.behance.net/rendition/pm/1507849/disp/5e73096a95e4b9326cd04b486c44b0e6.jpg
+    sizes:
+      disp: https://m2.behance.net/rendition/pm/1507849/disp/5e73096a95e4b9326cd04b486c44b0e6.jpg
+      original: https://m2.behance.net/rendition/pm/1507849/orig/5e73096a95e4b9326cd04b486c44b0e6.jpg
+    dimensions:
+      disp:
+        width: 427
+        height: 337
+      original:
+        width: 427
+        height: 337
     width: 427
     height: 337
-    sizes:
-      original: https://m1.behance.net/rendition/modules/10564299/orig/5e73096a95e4b9326cd04b486c44b0e6.jpg
-  short_url: http://bit.ly/ivgULH
+  short_url: http://on.be.net/ivgULH
   copyright:
     license: no-use
     description: No-use
     license_id: 7
+  tools: []
   styles:
     text:
       title:

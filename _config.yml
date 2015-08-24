@@ -1,12 +1,33 @@
 # Site settings
-title: Adrian J. Miller
+title: Adrian Miller Design
+author: Adrian Jon Miller
 email: adrianjonmiller@gmail.com
-description: > 
+description: >
+  Portfolio site of Adrian J Miller. I'm a graphic designer, web designer
+  and programmer. I've developed web applications, web sites and specialize
+  in custom logotypes and typography 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ajm.rocks" # the base hostname & protocol for your site
-twitter: adrianjonmiller
-github:  adrianjonmiller
-linkedin:  adrianjonmiller
+url: "http://adrianmiller.design" # the base hostname & protocol for your site
+twitter_username: adrianjonmiller
+github_username:  adrianjonmiller
+disqus_shortname: "demo_site"
+keywords: ["graphic design", "web design", "typography"]
+pagination: 3
 
 # Build settings
 markdown: kramdown
+
+# SASS Dir
+sass:
+    sass_dir: assets
+
+collections:
+  code:
+    output: true
+    permalink: /codes/:path/
+
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
