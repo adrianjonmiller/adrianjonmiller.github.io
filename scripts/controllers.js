@@ -21,4 +21,11 @@ angular.module('app.controllers', [])
 			angular.element('body').removeClass('no-scroll');
 			close();
 		}
+	})
+
+	.controller('headerCtrl', function($scope){
+		$scope.toggleMenu = function() {
+			angular.element('#mobile-menu').toggleClass('is-open');
+			angular.element('body').toggleClass('no-scroll');
+		}
 	});
