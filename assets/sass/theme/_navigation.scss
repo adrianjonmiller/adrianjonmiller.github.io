@@ -30,7 +30,7 @@
 	}
 	&:hover span, &.active span {
 		color: $c-highlight;
-		
+
 		&:after {
 			width: 100%;
 		}
@@ -90,25 +90,15 @@
 		top: 0;
 		right: 1rem;
 
-		rect {
+		.rect-1, .rect-2, .rect-3 {
 			fill: #fff;
 			width: 40px;
 			height: 6px;
-			transform-origin: 50% 50%;
-			transition: y .25s ease .25s, transform .25s;
-			&.rect-1 {
-				y: 10px;
-			}
-
-			&.rect-2 {
-				y: 20px;
-			}
-
-			&.rect-3 {
-				y: 30px;
-			}
+			@include transform-origin(50% 50%);
+			@include transition(all .25s);
+			@include transform(translateY(0px));
 		}
-	}	
+	}
 }
 
 
@@ -132,17 +122,21 @@
 
 	+ .mobile-menu-hamburger {
 			.hamburger {
-				rect {
-					transition: y .25s, transform .25s ease .25s;
-				
-					&.rect-1, &.rect-2 {
-						y: 20px;
-						transform: rotate(45deg);
-					}
-					&.rect-3 {
-						y: 20px;
-						transform: rotate(-45deg);
-					}
+
+				.rect-1 {
+					@include transition(transform .25s, transform .25s ease .25s);
+					@include transform(translate(0, 10px) rotate(45deg));
+				}
+
+				.rect-2 {
+					@include transition(transform .25s, transform .25s ease .25s);
+					@include transform(rotate(45deg));
+				}
+
+				.rect-3 {
+					@include transition(transform .25s, transform .25s ease .25s);
+					y: 20px;
+					@include transform(translate(0, -10px) rotate(-45deg));
 				}
 			}
 		}
@@ -179,7 +173,7 @@
  	}
  	&.active span {
 		color: $c-highlight;
-		
+
 		&:after {
 			width: 100%;
 		}
