@@ -39,17 +39,17 @@
 
 
 .social-style--a {
-	float: left;
-
 	> a {
-		height: $site-header-height;
-		display: block;
-		width: 40px;
-		text-align: center;
-		line-height: $site-header-height;
 		color: $c-primary;
+		text-decoration: none;
+		position: relative;
+		display: block;
+		height: $site-header-height;
+		line-height: $site-header-height;
+		text-align: center;
+		padding: 0 .5em 0;
+		font-size: 14pt;
 		transition: color .25s;
-		font-size: 18px;
 
 		&:hover {
 			color: $c-highlight;
@@ -69,8 +69,8 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 50px;
 	line-height: 60px;
 	margin: 0;
 	transition: top .5s;
@@ -84,16 +84,14 @@
 		color: #fff;
 	}
 	.hamburger {
-		width: 40px;
-		height: 60px;
+		width: 30px;
+		height: 50px;
 		position: fixed;
 		top: 0;
-		right: 1rem;
+		right: .5rem;
 
 		.rect-1, .rect-2, .rect-3 {
 			fill: #fff;
-			width: 40px;
-			height: 6px;
 			@include transform-origin(50% 50%);
 			@include transition(all .25s);
 			@include transform(translateY(0px));
