@@ -82,22 +82,26 @@
         </li>
         {% endif %}
       {% endfor %}
-      <li class="nav-style--b">
-        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
-          <i class="ion-social-twitter"></i> Twitter
-        </a>
-      </li>
-      <li class="nav-style--b">
-        <a href="https://www.linkedin.com/in/adrianjonmiller" target="_blank">
-          <i class="ion-social-linkedin"></i> LinkedIn
-        </a>
-      </li>
-      <li class="nav-style--b">
-        <a href="https://github.com/{{ site.github_username }}" target="_blank">
-          <i class="ion-social-github"></i> Github
-        </a>
-      </li>
     </ul>
+    <div class="table mobile-social">
+      <ul class="table-row">
+        <li class="table-col social-style--b">
+          <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+            <i class="ion-social-twitter"></i>
+          </a>
+        </li>
+        <li class="table-col social-style--b">
+          <a href="https://www.linkedin.com/in/adrianjonmiller" target="_blank">
+            <i class="ion-social-linkedin"></i>
+          </a>
+        </li>
+        <li class="table-col social-style--b">
+          <a href="https://github.com/{{ site.github_username }}" target="_blank">
+            <i class="ion-social-github"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <div class="mobile-menu-hamburger" ng-click="toggleMenu()">
     <?xml version="1.0" encoding="utf-8"?>

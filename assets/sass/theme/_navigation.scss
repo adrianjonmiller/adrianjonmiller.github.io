@@ -57,6 +57,25 @@
 	}
 }
 
+.social-style--b {
+	> a {
+		color: $c-primary;
+		text-decoration: none;
+		position: relative;
+		display: block;
+		height: 70px;
+		line-height: 70px;
+		text-align: center;
+		padding: 0 .5em 0;
+		font-size: 18pt;
+		transition: color .25s;
+
+		&:hover {
+			color: $c-highlight;
+		}
+	}
+}
+
 .desktop-menu {
 	display: none;
 
@@ -110,6 +129,7 @@
 	background: rgba(black, 0.7);
 	margin-top: 0;
 	transition: top .5s;
+	padding-bottom: 70px;
 
 	.logo img {
 		margin: 30px 1em 0;
@@ -138,6 +158,10 @@
 				}
 			}
 		}
+	}
+
+	.mobile-social {
+		margin: 0;
 	}
 }
 

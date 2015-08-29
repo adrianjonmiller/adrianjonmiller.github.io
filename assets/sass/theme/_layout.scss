@@ -136,17 +136,31 @@ body {
 
 	background-color: #fff;
 	margin: 0;
-	bottom: $pad;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+
+	@media (min-width: 769px ) {
+		bottom: $pad;
+		left: $pad;
+		right: $pad;
+		top: $pad;
+	}
+
 	box-shadow: 0 0 3px rgba(black, 0.6);
-	left: $pad;
 	padding-left: $pad;
 	padding-top: 4rem;
 	padding-bottom: $pad;
 	position: fixed;
-	right: $pad;
-	top: $pad;
+	
 	z-index: 10001;
-	overflow-y: scroll;
+	overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+
+  @media (min-width: 1025px) {
+  	overflow-y: auto;
+  }
 
 	.close {
 		margin: 0;
@@ -169,6 +183,7 @@ body {
 		top: 0;
 		left: 0;
 		width: 100%;
+		padding-right: 4rem;
 	}
 
 	.modal-description {
