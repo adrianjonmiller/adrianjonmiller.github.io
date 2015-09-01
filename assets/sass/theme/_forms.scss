@@ -14,24 +14,39 @@ form {
 	input[type="text"], input[type="email"] {
 		border: none;
 		border-bottom: solid thin $c-primary;
+		border-radius: 0;
+		 -webkit-appearance: none;
 	}
 
 	textarea {
 		padding: 0 10px;
 		border: solid thin $c-primary;
 		border-top: none;
+		border-radius: 0;
 	}
 }
 
 button, input[type="submit"] {
 	display: inline-block;
-	height: 3rem;
-	line-height: 3rem;
+	border-radius: 0 !important;
+	height: 2rem;
+	line-height: 2rem;
 	text-align: center;
 	background: $c-primary;
 	border: none;
 	color: #fff;
 	padding: 0 3rem;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	 -webkit-appearance: none;
+
+	@media (min-width: 769px) {
+		line-height: 3rem;
+		height: 3rem;
+	}
+
 	&:hover {
 		cursor: pointer;
 	}
