@@ -153,7 +153,6 @@
 
 				.rect-3 {
 					@include transition(transform .25s, transform .25s ease .25s);
-					y: 20px;
 					@include transform(translate(0, -10px) rotate(-45deg));
 				}
 			}
