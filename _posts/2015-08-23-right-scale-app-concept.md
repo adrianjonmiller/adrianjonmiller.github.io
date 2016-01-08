@@ -330,4 +330,4 @@ details:
       border_style: solid
 ---
 
-These are designs from a new product I helped develop. The Self Service app was meant to simplify the process for launching complicated applications, allowing users with no development experience create instances of complicated multi-server applications. I created several UI design directions and collaborated with both Developers and other UX Designers on the project to build out a proof of concept prototype.
+These are designs from a new product I helped develop. The Self Service app was meant to simplify the process for launching complicated applications, allowing users with no development experience create instances of complicated multi-server applications. I created several UI design directions and collaborated with both Developers and other UX Designers on the project to build out a proof of concept prototype.![](/uploads/versions/fotolia_57879825---x----500-333x---.jpg)
