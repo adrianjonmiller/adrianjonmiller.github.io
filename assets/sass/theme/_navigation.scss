@@ -20,11 +20,17 @@
 				content: "";
 				border-bottom: solid thin #fff;
 				width: 0;
-				margin: 0 auto;
-				position: relative;
+				margin: 0;
+				position: absolute;
+				left: 50%;
+				right: 50%;
 				display: block;
-				bottom: 2.75rem;
-				transition: width .25s;
+				bottom: 30px;
+
+				@media screen and (min-width: 1024px) {
+					bottom: 35px;
+				}
+				transition: all .25s;
 			}
 		}
 	}
@@ -33,6 +39,8 @@
 
 		&:after {
 			width: 100%;
+			left: 0;
+			right: 0;
 		}
 	}
 }
