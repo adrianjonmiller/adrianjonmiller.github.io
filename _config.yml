@@ -5,7 +5,7 @@ email: adrianjonmiller@gmail.com
 description: >
   Portfolio site of Adrian J Miller. I'm a graphic designer, web designer
   and programmer. I've developed web applications, web sites and specialize
-  in custom logotypes and typography 
+  in custom logotypes and typography
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://adrianmiller.design" # the base hostname & protocol for your site
 twitter_username: adrianjonmiller
@@ -27,7 +27,6 @@ collections:
     permalink: /codes/:path/
 
 gems:
-- jekyll-mentions
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
